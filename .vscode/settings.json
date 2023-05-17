@@ -4,7 +4,7 @@
     "**/.gitkeep": true,
     ".eslintignore": true,
     ".eslintrc": true,
-    ".github": true,
+    ".github": false,
     ".gitignore": true,
     ".prettierignore": true,
     ".prettierrc": true,
