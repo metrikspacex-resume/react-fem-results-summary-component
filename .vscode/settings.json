@@ -8,8 +8,8 @@
     ".gitignore": true,
     ".prettierignore": true,
     ".prettierrc": true,
-    "dist": true,
-    "index.html": true,
+    "dist": false,
+    "index.html": false,
     "node_modules": true,
     "package-lock.json": true,
     "package.json": true,
@@ -17,6 +17,6 @@
     "src/vite-env.d.ts": true,
     "tsconfig.json": true,
     "tsconfig.node.json": true,
-    "vite.config.ts": true
+    "vite.config.ts": false
   }
 }
