@@ -127,6 +127,7 @@
         "tabWidth": 2
       }
     ],
+    "max-lines-per-function": "off",
     "no-alert": "error",
     "no-caller": "error",
     "no-console": "error",
@@ -151,7 +152,7 @@
     "no-labels": "error",
     "no-lone-blocks": "error",
     "no-loop-func": "error",
-    "no-magic-numbers": "error",
+    "no-magic-numbers": "off",
     "no-multi-spaces": "error",
     "no-multi-str": "error",
     "no-new": "error",
@@ -165,11 +166,12 @@
     "no-script-url": "error",
     "no-self-compare": "error",
     "no-sequences": "error",
-    "no-shadow": "error",
+    "no-shadow": "off",
     "no-template-curly-in-string": "error",
     "no-unused-expressions": "error",
     "no-unused-vars": "off",
     "no-useless-constructor": "error",
+    "one-var": "off",
     "prettier/prettier": [
       "error",
       {
@@ -259,6 +261,7 @@
     "sort-imports": "off",
     "spaced-comment": "off",
     "strict": "error",
+    "unicorn/consistent-function-scoping": "off",
     "unicorn/filename-case": "off",
     "unicorn/no-keyword-prefix": "off",
     "unicorn/prefer-event-target": "error",
