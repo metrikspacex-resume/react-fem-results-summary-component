@@ -5,5 +5,12 @@ import styles from "./home.module.scss";
 
 export type HomeProps = HTMLAttributes<HTMLElement>;
 export default function Home() {
-  return <main className={clsx(styles.root)}></main>;
+  return (
+    <main className={clsx(styles.root)}>
+      <img
+        alt=""
+        src="/images/icon-memory.svg"
+      />
+    </main>
+  );
 }
