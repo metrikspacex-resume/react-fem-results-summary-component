@@ -1,0 +1,73 @@
+div.root {
+  align-items: center;
+  border-radius: 1.2rem;
+  display: flex;
+  height: 5.6rem;
+  padding: 0 1.6rem;
+  & > img {
+    height: 2rem;
+    width: 2rem;
+  }
+  & > h1 {
+    color: hsl(var(--hsl-dark-navy));
+    flex-grow: 1;
+    font-family: var(--font);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.1rem;
+    margin-left: 1.2rem;
+    @media (width >= 768px) {
+      font-size: 1.8rem;
+      line-height: 2.3rem;
+      margin-bottom: 1.6rem;
+      margin-top: auto;
+    }
+  }
+  & > h2 {
+    color: hsl(var(--hsl-dark-navy));
+    font-family: var(--font);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.1rem;
+    @media (width >= 768px) {
+      font-size: 1.8rem;
+      line-height: 2.3rem;
+    }
+    & > span:nth-of-type(1) {
+      /* Empty - inherit */
+    }
+    & > span:nth-of-type(2) {
+      opacity: 0.5;
+    }
+  }
+}
+
+div.grd-red {
+  background: linear-gradient(0deg, rgb(255 255 255 / 95%), rgb(255 255 255 / 95%)), #f55;
+  & > h1 {
+    color: hsl(var(--hsl-red));
+  }
+}
+
+div.grd-yellow {
+  background: linear-gradient(0deg, rgb(255 255 255 / 95%), rgb(255 255 255 / 95%)), #ffb21e;
+  & > h1 {
+    color: hsl(var(--hsl-yellow));
+  }
+}
+
+div.grd-green {
+  background: linear-gradient(0deg, rgb(255 255 255 / 95%), rgb(255 255 255 / 95%)), #00bb8f;
+  & > h1 {
+    color: hsl(var(--hsl-green));
+  }
+}
+
+div.grd-blue {
+  background: linear-gradient(0deg, rgb(255 255 255 / 95%), rgb(255 255 255 / 95%)), #1125d6;
+  & > h1 {
+    color: hsl(var(--hsl-blue));
+  }
+}

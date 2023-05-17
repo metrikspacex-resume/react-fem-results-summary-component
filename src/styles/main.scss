@@ -11,15 +11,28 @@
 }
 
 :root {
+  --grd-1: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+  --grd-2: linear-gradient(180deg, #4d21c9 0%, rgb(37 33 201 / 0%) 100%, rgb(37 33 201 / 0%) 100%);
+  --hsl-black: 0deg 0% 0%;
+  --hsl-blue: 234deg 85% 45%;
+  --hsl-dark-navy: 224deg 30% 27%;
+  --hsl-green: 166deg 100% 37%;
+  --hsl-light-blue: 241deg 100% 89%;
+  --hsl-red: 0deg 100% 67%;
+  --hsl-very-light-blue: 221deg 100% 96%;
+  --hsl-white: 0deg 0% 100%;
+  --hsl-yellow: 39deg 100% 56%;
+  --font: "Hanken Grotesk", sans-serif;
+
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background-color: white;
   color-scheme: light;
   color: black;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--font);
   font-size: 10px;
   font-synthesis: none;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   text-rendering: optimizelegibility;
   text-size-adjust: 100%;

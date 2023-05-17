@@ -3,8 +3,5 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   base: "/react-fem-results-summary-component/",
-  build: {
-    copyPublicDir: true,
-  },
   plugins: [react()],
 });
